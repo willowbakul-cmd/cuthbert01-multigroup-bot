@@ -1,13 +1,11 @@
 {
-  "name": "cuthbert-multigroup-bot",
-  "version": "1.0.0",
+  "name": "cuthbert-bot",
   "main": "index.js",
-  "author": "CUTHBERT",
   "scripts": { "start": "node index.js" },
   "dependencies": {
     "@whiskeysockets/baileys": "^6.7.8",
     "express": "^4.18.2",
-    "qrcode-terminal": "^0.12.0",
-    "pino": "^8.17.0"
+    "pino": "^8.16.0",
+    "node-cron": "^3.0.3"
   }
 }
